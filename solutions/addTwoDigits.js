@@ -1,5 +1,10 @@
-function sum (a, b) {
-return a + b;
+function addTwoDigits(n){
+    var a = n%10;
+    var b = parseInt(n/10);
+    var suma = a+b;
+
+  return suma;
 }
-console.log(sum(4, 5));
-module.exports = sum
+
+console.log("la suma de sus digitos es: " + addTwoDigits(29));
+module.exports = addTwoDigits
