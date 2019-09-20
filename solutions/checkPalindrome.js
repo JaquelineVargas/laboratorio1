@@ -21,7 +21,7 @@ function checkPalindrome (x) {
 
 }
 console.log(checkPalindrome("abac"));
-
 console.log(checkPalindrome("a"));
-
 console.log(checkPalindrome("aabaa"));
+
+module.exports = checkPalindrome 
